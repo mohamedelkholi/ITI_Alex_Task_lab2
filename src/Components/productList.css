@@ -1,0 +1,34 @@
+.card:hover {
+  transform: scale(1.1);
+  transition: all linear 200ms;
+  z-index: 1;
+  box-shadow: 1px 1px 10px;
+}
+
+.cardImg_container {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cardImg {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card_Title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+}
+
+.card_Desc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: #eee;
+}
+.product {
+  padding: 3rem 0;
+}
+.product figure {
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+.product figure img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.product_Desc {
+  width: 50%;
+  padding: 0 2rem;
+}
+
+.product_Desc h3 {
+  color: rgb(60, 60, 60);
+}
+.product_Desc p:first-of-type {
+  margin: 3rem 0;
+}
